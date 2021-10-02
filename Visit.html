@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Niwahana Apartments </title>
+		<script src="script/myScript.js"></script>
+		<link rel="stylesheet" href="style/styles.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+	<div class="menubar">
+    <button type="submit"class="btnlogin" ><a href="login.html">Login</a></button>
+    <button type="submit"class="btnRegister"><a href="#">Register</a></button>
+
+     <div class="leftmenu">
+	    <h1 class="text" >NIWAHANA APARTMENT</h1>
+	  </div>
+   <ul>
+	<li style="font-size:20px"> <a href="Home.html"> Home </a> </li>
+	<li style="font-size:20px"> <a href="viewapartments.html"> Apartments </a> </li>
+	<li style="font-size:20px"> <a href="Aboutus.html">About Us </a> </li>
+	<li style="font-size:20px"> <a href="Services.html">Services </a> </li>
+	<li style="font-size:20px">  <a href="contact.html">Contact Us </a> </li>
+   </ul>
+ </div>
+		<br><br><br>
+		<div class="form_img">
+		<form action="visit.php"  method="POST" class="form" name="VisitForm">
+		
+		<h2 class="l">Appoinment to visit to the appartment</h2>
+		<label class="vema"><b>Email</b></label><br><br>
+		<input type="text" id="Vemail" name="Vemail" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9]+\.[a-z]{2,3}" size="32" required> <br><br><br>
+		
+		<label class="vname"><b>Name</b></label><br><br>
+		<input type="text" id="Vname" name="Vname" size="32" required> <br><br><br>
+		
+		<label class="vphone"><b>Mobile Number</b></label><br><br>
+		<input type="text" id="Vphone" name="Vphone" size="32" required> <br><br><br>
+		
+		<b>Apartment Type</b>:<br><br>
+		<input name="Atype" type="radio" value="luxury ">luxury 
+		<input name="Atype" type="radio" value="semi luxury" >Semi luxury <br/><br/><br/>
+		
+		<label class="vdate"><b>Select date</b></label><br><br>
+		<input type="date" id="vdate" name="vdate" required><br><br><br>
+		
+		<label class="vtime"><b>Select time</b></label><br><br>
+		<input type="time" id="vtime" name="vtime" required><br><br><br>
+		
+		<input type="submit" id="sbtn" name="sbtn" value="submit">
+		
+		</form>
+		
+		</div>
+	   
+		<br><br><br>
+		
+		<div>
+<footer class="footer">
+      <div class="cont">
+	      <div class="col">
+		     <div class="card1">
+			 <h2 class="f">About Us</h2>
+			 <p>we're excited to offer some quality apartments.
+                The Niwahana Apartments(Pvt) Ltd is one of the leading companies in the real estate sector in Sri Lanka.
+                 We have over 20 years' experience in real estate.</p>
+		  </div>
+		 </div>
+		 
+		   <div class="col">
+		     <div class="card1">
+			 <h2 class="f">Find Us </h2>
+			 <p> Facebook: Niwahana Apartments<br>
+			 	 instagram : niwahanalive<br>
+				 Email:inquire@Napartments.com<br>
+			  niwahanalive@niwanahaapartment.com<br>
+				 
+			  </p>
+		  </div>
+		 </div>
+		 
+		 <div class="col">
+		     <div class="card1">
+			 <h2 class="f">location</h2>
+			 <p> No 14/2,<br>Athurugiriya road,<br>Malabe.<br></p>
+		  </div>
+		 </div>
+		 
+		 <div class="col">
+		     <div class="card1">
+			 <h2 class="f">Hotline</h2>
+			<p> +94 355 584 894<br>+94 445 236 777<br>+94 558 326 256<br></p>
+		  </div>
+		 </div>
+		  
+	</div>
+	
+ </footer>
+</div>
+	</body>
+</html>

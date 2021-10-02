@@ -1,0 +1,101 @@
+*{
+    margin:0px;
+}
+
+.imagetext1{
+    position: relative;
+    
+    color: white;
+}
+.laptop{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+.upper{
+   
+    margin-bottom:0px;
+}
+
+.form
+{
+	width:35%;
+    text-align:left;
+    margin-left:20px;
+    color: ghostwhite;
+    padding:20px;
+   
+   
+    
+}
+.inquire{
+    background-color: rgb(42, 44, 66);
+    margin-top:10px;
+    background-image: url("../img/blue.png");
+    width:450px;
+    margin-bottom:20px;
+}
+input[type=text] , input[type=phoneNo]
+{
+	
+	height:25px;
+}
+#mail
+{
+    width:95%;
+}
+#fname{
+    width: 90%;
+}
+
+#lname{
+    width: 45%;
+}
+#phoneNo{
+    width: 45%;
+}
+
+#first-name-div, #expire-div{
+    float: left;
+    width: 50%;
+}
+#phone,#location,#email{
+    float:left;
+    width:33%;
+    
+}
+.icons{
+    height:250px;
+    margin-top:0px;
+    margin-bottom:0px ;
+    background-color:rgb(10, 11, 15);
+    /* color:rgb(182, 214, 229); */
+    
+}
+.icon{
+    text-align:center;
+    color:rgb(180, 213, 228);
+    margin-top:20px;
+}
+#titles,#title2,#descript{
+    text-align:center;
+    color:rgb(180, 213, 228);
+}
+/* contactForm.php */
+.image10{
+    background-image:url("../img/laptop.jpg");
+    height:70%;
+	background-size:cover ;
+    font-size: 17px;
+}
+.container{
+position:absolute;
+top:20%;
+background: rgb(0, 0, 0); 
+background: rgba(3, 3, 3, 0.671);
+color: #f1f1f1;
+width: 100%;
+padding: 20px;
+}

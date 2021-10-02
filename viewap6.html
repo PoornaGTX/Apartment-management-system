@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<head>
+	<title> View apartment </title>
+	<link rel="stylesheet" href="style/styles6.css"/>
+	<script src="script/myScript6.js"> </script>
+	<script> alert("APARTMENT IS LOADED"); </script>
+
+</head>
+<body>
+	<div class="menubar">
+    <button type="submit"class="btnlogin" ><a href="#">Login</a></button>
+    <button type="submit"class="btnRegister"><a href="#">Register</a></button>
+
+     <div class="leftmenu">
+	    <h1 class="text" >NIWAHANA APARTMENTS</h1>
+	  </div>
+   <ul>
+	<li style="font-size:20px"> <a href="Home.html"> Home </a> </li>
+	<li style="font-size:20px"> <a href="viewapartments.html"> Apartments </a> </li>
+	<li style="font-size:20px"> <a href="Aboutus.html">About Us </a> </li>
+	<li style="font-size:20px"> <a href="Services.html">Services </a> </li>
+	<li style="font-size:20px">  <a href="contact.html">Contact Us </a> </li>
+   </ul>
+ </div>
+ <br>
+	<hr class="a">
+<br>
+	<div class="dotted" >
+		<center>
+		<h1 style="color:white;"> Apartmnet 6 <br>
+		Sky View</h1>
+		</center>
+
+		<hr>
+
+		<br>
+		<center>
+		<image id="img1" src="img/view6.jpg" width="30%" height="50%" >
+		<image id="img2" src="img/view1.jpg" width="30%" height="50%" >
+
+		<p id="pra"> </p>
+		<div>
+
+		<button type="button" id="button1" onclick="loadData('button1')">  BED ROOMS </button>
+		<button type="button" id="button2" onclick="loadData('button2')">  DINING AREA </button>
+		<button type="button" id="button3" onclick="loadData('button3')">  BATH ROOMS </button>
+		<button type="button" id="button4" onclick="loadData('button4')">  LIVING ROOMS </button>
+		<button type="button" id="button5" onclick="loadData('button5')">  KITCHEN </button>
+
+		<br><br>
+
+
+
+		</div>
+
+		</center>
+
+		<p> <b>BED ROOMS : 2 bed rooms with atached bathrooms</b> </p>
+		<p> <b>BATH ROOMS :</b> 2 bathrooms </p>
+		<p> <b>LIVING AREA :</b> 1250 sqt feet</p>
+		<p> <b>PAYMENT Planes :</b> <ul> <li>Reservation - 1 Million</li>
+										<li>Down Payment - 30% (Within 3 Months)</li>
+										<li>Balance Payment - Interest Free Monthly Payment Plan (60% Should Be Completed Within 9 Months)</li>
+										<li>Balance 10% In CompletOr Bank Loan (70%)</li></ul> </p>
+
+
+		<hr>
+
+
+		<text style="text-align:right"> <div class="row">
+		<br></br>
+  <div class="column">
+    <div class="card">
+      <p><i class="fa fa-user"></i></p>
+      <h3>11+ people are looking</h3>
+      <p>Buy now</p>
+	  <button type="button" >  <a href="buyNow.html"> Buy </a>  </button> &nbsp
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <p><i class="fa fa-check"></i></p>
+      <h3>55+ people added</h3>
+      <p>Add to wish list</p>
+	  <button type="button" action="config.php"> Add+ </button> &nbsp
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <p><i class="fa fa-smile-o"></i></p>
+      <h3>100+</h3>
+      <p>Ratings</p>
+
+	  <form method="POST" action="reviews.php">
+			<label>Apartment number:</label>
+			<input type="number" name="anum" placeholder="Apartment number" >
+	  	<label>Rate this apartment:</label>
+			<input type="number" name="rate" placeholder="100%">
+
+			<label>Your review:</label>
+			<textarea name="review" rows="4" cols="20">	</textarea>
+			<br>
+			<input type="text" name="email" placeholder="Email">
+	 		<br><br>
+	  	<input type="submit" value="Submit">
+		</form>
+
+    </div>
+  </div>
+
+	<div class="column">
+    <div class="card">
+      <p><i class="fa fa-check"></i></p>
+      <h3>15+ people shared this apartment</h3>
+      <p>Share this apartment</p>
+	  <button type="button" onclick="loadData('button1')"> Share </button> &nbsp
+    </div>
+  </div>
+</div> </text>
+
+</div>
+<div>
+<br>
+<hr class="a">
+<br>
+</body>
+<footer class="footer">
+      <div class="cont">
+	      <div class="col">
+		     <div class="cardd">
+			 <h2>About Us</h2>
+			 <p>We're excited to offer some quality apartments.
+                The Niwahana Apartments(Pvt) Ltd is one of the leading companies in the real estate sector in Sri Lanka.
+                 We have over 20 years experience in real estate.</p>
+		  </div>
+		 </div>
+
+		   <div class="col">
+		     <div class="cardd">
+			 <h2>Find Us </h2>
+			 <p> Facebook: Niwahana Apartments<br>
+			 	 Instagram: niwahanalive<br>
+			     Email: niwahanalive@niwanahaapartment.com<br>
+
+			  </p>
+		  </div>
+		 </div>
+
+		 <div class="col">
+		     <div class="cardd">
+			 <h2>Location</h2>
+			 <p> No 14/2,<br>Athurugiriya road,<br>Malabe.<br></p>
+		  </div>
+		 </div>
+
+		 <div class="col">
+		     <div class="cardd">
+			 <h2>Hotline</h2>
+			 <p> +94355584894<br>+9411445236777<br>+94558326256<br></p>
+		  </div>
+		 </div>
+
+	</div>
+
+ </footer>

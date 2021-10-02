@@ -1,0 +1,22 @@
+* {
+    margin: 0px;
+}
+.tableContainer{
+    padding:15px;
+    background-image:url("../img/admin.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+   
+}
+.tableOpacity{
+    background-color: rgba(184, 179, 179, 0.829);
+    padding: 20px;
+    margin-bottom:300px;
+}
+.editForm{
+    width:20%;
+    margin: auto;
+}
+body{
+    background-color: black;
+}

@@ -1,0 +1,184 @@
+@charset "utf-8";
+
+	body
+	{
+		background-color:#e6e6e6;
+		color:white;
+	}
+
+	.menubar{
+	background:black ;
+	text-align:center ;
+	overflow: hidden;
+	height:70px;
+
+}
+
+.leftmenu{
+	width:40% ;
+	line-height :40px;
+	float : left ;
+}
+
+.text{
+	color:white ;
+	font-size:20px;
+	letter-spacing:10px ;
+}
+
+.menubar ul{
+	display:inline-flex;
+	list-style : none;
+	color : white ;
+	overflow:hidden;
+	float:right ;
+
+
+
+
+}
+
+.menubar ul li{
+	width:100px ;
+	margin:2px ;
+	padding:5px ;
+	font-family: Impact, Charcoal, sans-serif;
+}
+
+.menubar ul li a{
+	text-decoration:none;
+	color:white;
+}
+
+a:hover {
+  background-color: #b2beb5;
+
+}
+.btnlogin{
+	margin:2px;
+    color: black;
+    background-color: white;
+    border:none;
+    padding:10px;
+    float: right;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btnRegister{
+	margin:2px;
+    color: black;
+    background-color: white;
+    border:none;
+    padding:10px;
+    float: right;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.footer{
+	background-color:black;
+}
+
+
+	h1,h2
+	{
+		text-align:center;
+		font-family:sans-serif;
+	}
+	hr
+	{
+		border:1px solid black; //accepts 3 elements
+	}
+
+	li.menu
+	{
+		display:block;
+		float:left;1
+	}
+	li a
+	{1
+		display:block;
+		color:white;
+		text-align:center;
+		padding:25px 25px;
+		text-decoration:none;
+	}
+
+	.col1
+	{
+		text-align:center;
+	}
+	.col2
+	{
+		text-align:left;
+	}
+	span
+	{
+		color:red;
+	}
+	.tb1
+	{
+		margin-top:15px;
+		margin-right:10px;
+		margin-bottom:10px;
+		margin-left:10px
+		border-style:groove;
+		padding:3px;
+	}
+	p
+	{
+		text-align:center;
+		//font-style:italic;
+	}
+	#p1
+	{
+		font-style:italic;
+	}
+	button
+	{
+		color: white;
+		background-color: #ffd633;
+
+	}
+	.column
+	{
+		border: 15px solid #b3b3b3 ;
+		background-color: black;
+		float: left;
+        width: 30.62%;
+        padding: 4px;
+	}
+
+	.row::after
+	{
+		content: "";
+		clear: both;
+		display: table;
+	}
+
+	hr.new1 {
+  border: 2px solid white;
+}
+
+.cont{
+	max-width:1170px ;
+	width:100%;
+	margin:0 auto ;
+	display :flex ;
+}
+.col{
+	margin: 0 15px 25px;
+	0 1px 2px rgba(0, 0, 0, 0.24) ;
+	flex-basis:33%;
+
+}
+.card{
+	padding:15;
+	color:white;
+
+
+}
+
+.cardtxt{
+	text-align:center;
+}

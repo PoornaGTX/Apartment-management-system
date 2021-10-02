@@ -1,0 +1,101 @@
+* {
+    margin: 0px;
+}
+
+
+/*css for the buyNow.html*/
+
+#cName,
+#cNumber {
+    width: 90%;
+}
+
+.payForm {
+    float: left;
+    margin-left: 0px;
+    margin-right: 10px;
+    margin-top: 10px;
+
+}
+
+#btn1 {
+    background-color: #f3f2f8;
+}
+
+.photos {
+    float: left;
+    width: 60%;
+    height: 450px;
+}
+
+.img {
+    object-fit: cover;
+    width: 24%;
+    margin: 1.5%;
+    float: left;
+    height: 150px;
+}
+
+#bigImg {
+    margin-top: 30px;
+    margin-left: 11%;
+    width: 60%;
+}
+
+.back {
+
+    background-image: url("../img/apartments.png");
+    object-fit: cover;
+    overflow: hidden;
+
+}
+
+.radioBtns{
+    color:white;
+}
+
+.bottom {
+    clear: left;
+}
+
+.bottomIMG {
+    margin: 10px;
+    height: 250px;
+}
+
+.similar_1 {
+    float: left;
+    width: 23%;
+    padding: 10px;
+}
+
+.living {
+    height: 150px;
+    width: 300px;
+    cursor: pointer;
+}
+
+.heading {
+    background-color: white;
+}
+
+
+/* css for the buyForm.php*/
+
+.image10 {
+    background-image: url("../img/blue.png");
+    height: 500px;
+    font-size: 17px;
+	
+}
+
+.container {
+    position: absolute;
+    top: 20%;
+    background: rgb(0, 0, 0);
+    background: rgba(53, 82, 87, 0.671);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+	
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Request form to sell or upgrade </title>
+		<script src="script/script.js"> </script>
+		<link rel="stylesheet" href="style/formstyles.css"/>
+		<link rel="stylesheet" href="style/change.css"/>
+	</head>
+	<body>
+		<div class="menubar">
+			<button type="submit" class="btnlogin" ><a href="userupdate.php">My Profile</a></button>
+
+			<div class="leftmenu">
+				<h1 class="text" >NIWAHANA APARTMENTS</h1>
+			</div>
+			<ul>
+				<li style="font-size:20px"> <a href="Home.html"> Home </a> </li>
+				<li style="font-size:20px"> <a href="viewapartments.html"> Apartments </a> </li>
+				<li style="font-size:20px"> <a href="Aboutus.html">About Us </a> </li>
+				<li style="font-size:20px"> <a href="Services.html">Services </a> </li>
+				<li style="font-size:20px">  <a href="contact.html">Contact Us </a> </li>
+			</ul>
+		</div>
+		<hr>
+	
+		<h1 align="center" class="capitalize"> request to change apartment </h1>
+		<center>
+		<form align="left" action="form1.php" method="POST">
+			
+			<h3>GENERAL SELLING POLICY:<br></h3>
+			<p>The operation can be cancelled within 3 working days.<br>
+				When a buyer is interested in the apartment our Customer Officer wil contact you.<br></p>
+			<h3>GENERAL UPGRADE POLICY:<br></h3>
+			<p>The upgrade payment can be done by credit/debit cards.<br>
+			A form will be sent to customer's email address according to the availability of apartments. </p>
+			
+			<fieldset>
+				<legend> REQUEST FORM </legend>
+			<h3 class="uppercase"> personal information </h3>
+			Customer's Full Name : <br>
+			<input type="text" id="fname" name="fname" style="width:60%" placeholder="D.P.D Ranasinghe" required> <br><br>
+			Choose Your DOB : <br>
+			<input type="date" id="dob" name="dob"> <br><br>
+			NIC: <br>
+			<input type="text" id="nic" name="nic" style="20%" required>  <br><br>
+			Mobile Number : <br>
+			<input type="phone" id="phone" name="phone" style="width:15%;" pattern="[0-9]{10}" placeholder="0768817653" required > <br><br>
+			Email Address : <br>
+			<input type="email" id="email" name="email" style="width:40%;" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9]+\.[a-z]{2,3}" placeholder="onlinepoorna@gmail.com" required> <br><br>
+			
+			<h3 class="uppercase"> apartment details </h3>
+			Choose The Changing Type : <br>
+			<input type="radio" id="type" name="type" value="s"> Sell The Apartment
+			<input type="radio" id="type" name="type" value="u" checked> Upgrade The Apartment <br><br>
+			Floor/Apartment Number : <br>
+			<input type="number" id="number" name="number" style="width:10%;" pattern="[0-9]{3}" placeholder="123" required > <br><br>
+			Address : <br>
+			<textarea id="address" name="address" cols="60" rows="10"required > </textarea> <br><br>
+			Choose The Apartment Name:<br>
+			<select name="apartmnt" id="apartmnt">
+				<option>----Name----</option>
+				<option value="a" >Eco Stay</option> 
+				<option value="b" >The Green </option>
+				<option value="c" >Ideal Home</option>
+				<option value="d" >Alpha City</option>
+				<option value="e" >City View</option>
+				<option value="f" >Sky View</option>
+			</select> <br><br>
+			</fieldset>
+			
+			Accept Privacy Policy Terms
+			<input type="checkbox" id="ch" name="ch" required onclick="enableButton()"> <br><br>			
+			
+			<input type="submit" id="b1" name="b1" value="Submit" disabled>
+			
+		</form>
+		</center>
+		
+		<hr>
+		
+		<div>
+			<footer class="footer">
+				<div class="cont">
+					<div class="col">
+						<div class="card">
+							<h2>About Us</h2>
+								<p>We're excited to offer some quality apartments.
+									The Niwahana Apartments(Pvt) Ltd is one of the leading companies in the real estate sector in Sri Lanka.
+									We have over 20 years experience in real estate.</p>
+						</div>
+					</div>
+		 
+					<div class="col">
+						<div class="card">
+							<h2>Find Us </h2>
+								<p> Facebook: Niwahana Apartments<br>
+									Instagram : niwahanalive<br>
+									Email: inquire@Napartments.com <br>
+								</p>
+						</div>
+					</div>
+		 
+					<div class="col">
+						<div class="card">
+							<h2>Location</h2>
+								<p> No 14/2,<br>Athurugiriya road,<br>Malabe.<br></p>
+						</div>
+					</div>
+		 
+					<div class="col">
+						<div class="card">
+							<h2>Hotline</h2>
+								<p>+94 355 584 894<br>+94 445 236 777<br>+94 558 326 256<br></p>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>

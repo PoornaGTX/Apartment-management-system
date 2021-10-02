@@ -1,0 +1,152 @@
+<!DCOTYPE html>
+    <html>
+
+    <head>
+
+        <link rel="stylesheet" href="style/contactForm.css">
+        <link rel="stylesheet" href="style/buy.css">
+        <link rel="stylesheet" href="style/headerFooter.css">
+        <script src="script/myScript4.js"></script>
+
+
+
+
+
+        <title>Buy now</title>
+    </head>
+
+    <body>
+        <div class="menubar">
+            
+
+            <div class="leftmenu">
+                <h1 class="text">NIWAHANA APARTMENTS</h1>
+            </div>
+            <ul>
+                <li style="font-size:20px"> <a href="Home.html"> Home </a> </li>
+                <li style="font-size:20px"> <a href="viewapartments.html"> Apartments </a> </li>
+                <li style="font-size:20px"> <a href="Aboutus.html">About Us </a> </li>
+                <li style="font-size:20px"> <a href="Services.html">Services </a> </li>
+                <li style="font-size:20px"> <a href="contact.html">Contact Us </a> </li>
+            </ul>
+        </div>
+
+        <div class="back">
+            <form action="buyForm.php" method="POST" onsubmit="return ">
+            <div class="radioBtns">
+                <span>Select apartment number:</span><br><br>
+                <input type="radio" name="apNo" value="ap1">Apartment 01 &nbsp &nbsp
+                <input type="radio" name="apNo" value="ap2">Apartment 02 &nbsp &nbsp
+                <input type="radio" name="apNo" value="ap3">Apartment 03 &nbsp &nbsp
+                <input type="radio" name="apNo" value="ap4">Apartment 04 &nbsp &nbsp
+                <input type="radio" name="apNo" value="ap5">Apartment 05 &nbsp &nbsp
+                <input type="radio" name="apNo" value="ap6">Apartment 06 &nbsp &nbsp
+
+            </div>
+                <div class="form payForm">
+
+                
+                
+                    <fieldset>
+                       
+
+                        <h2>Payment Details</h2><br>
+
+                        <h3>Accepted cards</h3>
+                        <img class="cards" src="img/payment.jpg" width="80%" height="100px"><br><br>
+
+                        <h4>Card holder's name</h4><br>
+                        <input type="text" id="cName" name="cName" required/><br><br>
+
+                        <h4>Card Number</h4><br>
+                        <input type="text" id="cNumber" name="cNumber" pattern="[0-9]{16}" required/> <br><br>
+                        <div id="expire-div">
+                            <h4>Expire Date </h4><br>
+
+                            <input type="text" id="expire" name="expire" placeholder="yy/mm"
+                                pattern="[0-9]{2}+/[0-9]{2}" required>
+
+                        </div>
+                        <div id="cvc-div">
+                            <h4>CVC</h4>
+                            <br>
+                            <input type="text" id="cvc" name="cvc" pattern="[0-9]{3}" required><br>
+                        </div>
+                        <br><br> Accept Privacy Policy
+                        <input type="checkbox" id="policy" name="policy" onclick="enableButton()"> <br><br>
+
+                        <hr><br>
+                        <input type="submit" id="btn1" name="btn1" value="BUY NOW" disabled>
+                        
+                    </fieldset>
+
+                </form>
+
+            </div>
+
+            <div class="photos">
+                <div class="imageX">
+                    <img id="bigImg" src="img/ap11.jpg" height="300px">
+                </div>
+
+                <div class="thumbnails">
+                    <div class="thumbnail1"><img id="image1" class="img" src="img/ap22.jpg"
+                            onclick="loadPhoto('image1')"> </div>
+                    <div class="thumbnail1"><img id="image2" class="img" src="img/ap33.jpg"
+                            onclick="loadPhoto('image2')"></div>
+                    <div class="thumbnail1"><img id="image3" class="img" src="img/ap44.jpg"
+                            onclick="loadPhoto('image3')"></div>
+
+                </div>
+
+            </div>
+
+            <hr>
+        </div>
+
+        <div>
+            <footer class="footer">
+                <div class=" cont">
+                    <div class="col">
+                        <div class="card">
+                            <h2>About Us</h2>
+                            <p>We're excited to offer some quality apartments. The Niwahana Apartments(Pvt) Ltd is one
+                                of the leading companies in the real estate sector in Sri Lanka. We have over 20 years
+                                experience in real estate.</p>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card">
+                            <h2>Find Us </h2>
+                            <p> Facebook: Niwahana Apartments<br> Instagram : niwahanalive<br>
+                                niwahanalive@niwanahaapartment.com
+                                <br>
+
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card">
+                            <h2>location</h2>
+                            <p> Niwahana Aprtment HQ,<br>Colombo Rd,<br>Kandy.<br></p>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card">
+                            <h2>Hotline</h2>
+                            <p> +94112345678<br>+94115566782<br>+94712345568<br></p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </footer>
+        </div>
+        
+
+    </body>
+
+    </html>

@@ -1,0 +1,12 @@
+.mydiv {
+		opacity: 0.8;
+		width: 90%;
+		margin: auto;
+		background-color:#f0f0f5;
+		width: 700px;
+		font: 13px "Lucida Sans Unicode";
+		padding: 20px 12px 10px 20px;
+		outline-style: none;
+		outline-color: black;
+		float:center;
+	}

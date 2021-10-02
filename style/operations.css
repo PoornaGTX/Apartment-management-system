@@ -1,0 +1,42 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.all{
+    height:650px;
+   
+}
+.texts{
+    float:left;
+    color:rgb(170, 156, 156);
+    width:55%;
+    background-image: url("../img/dark\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+	    height:650px;
+}
+.opsIMG{
+    float:left;
+    width:45%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.apartmentIMG{
+    height:650px;
+    width:100%;
+    object-fit: cover;
+}
+.part1{
+    font-family: fantasy;
+    font-size: 25px;
+    margin:25px;
+}
+.part2,.list1{
+    color:white;
+    margin:25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

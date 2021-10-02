@@ -1,0 +1,312 @@
+@charset "utf-8";
+	body
+	{
+		background-image:url("../img/jjj.jpg");
+	}
+	
+	h1
+	{	
+		color: white;
+		text-align:center;
+		font-family:sans-serif;
+	}
+	h2.l
+	{
+		color: black;
+		text-align:center;
+		font-family:sans-serif;	
+		
+	}
+	h2.n
+	{
+		color: white;
+		text-align:left;
+		font-family:sans-serif;	
+		
+	}
+	h2.f
+	{
+		color: white;
+		text-align:left;
+		font-family:sans-serif;	
+		
+	}
+	
+	h2
+	{
+		color: white;
+		text-align:center;
+		font-family:sans-serif;	
+		
+	}
+	h3
+	{
+		color: white;
+		text-align:left;
+		font-family:sans-serif;	
+		
+	}
+	h1.m { 
+		word-spacing: 30px;
+	}
+
+	
+	p
+	{
+		color: white;
+		
+	}
+	
+	
+	hr
+	{
+		border:1px solid black;
+	}
+	
+	
+	
+	.about {
+
+  		background-image:url("../img/mms.jpg");
+  padding: 50px;
+  text-align: center;
+  background-color: #555555;
+  color: white;
+}
+
+	
+	#p1
+	{
+		font-style:italic;
+		text-align:center;
+	}
+	button
+	{
+		background-color: ;
+	}
+	
+	* {
+  box-sizing: border-box;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+transform: translate(-85%,-150%)
+}
+
+
+.form_img{
+  
+  background-image: url("../img/poi.jpg");
+  min-height: 300px;
+  min-width: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+}
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+input[type=email], input[type=password],input[type=text]{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+.form
+{
+	
+  margin: 5px 50px 22px 515px;
+  max-width: 300px;
+  padding: 16px;
+  opacity: 0.8;
+   background-color:gray;
+}
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa-twitter {
+  background:  #00acee;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.fa-facebook{
+  background: #3B5998;
+  color: white;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+.fa-google-plus {
+  background: #db4a39;
+  color: white;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 100px;
+  background-color: #474e5d;
+  color: white;
+   
+}
+
+.container {
+  padding: 0 16px;
+  
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+ 
+}
+@media screen and (max-width: 650px) {
+  .column {
+    width: 75%;
+    display: block;
+  }
+}
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+  
+}
+aside {
+  width: 30%;
+  padding-left: 15px;
+  margin-left: 20px;
+  float: right;
+  font-style: italic;
+  background-color: #192841;
+}
+
+
+
+.cont{
+	max-width:1170px ;
+	width:100%;
+	margin:0 auto ;
+	display :flex ;
+}
+.col{
+	margin: 0 15px 25px;
+	0 1px 2px rgba(0, 0, 0, 0.24) ;
+	flex-basis:33%;
+
+}
+.card1{
+	padding:15;
+	color:white;
+}
+ .footer
+ {
+	 
+	 background-color:black;
+ }
+ 
+.cardtxt{
+	text-align:center;
+}
+
+
+.menubar{
+	background:black ;
+	text-align:center ;
+	overflow: hidden;
+	height:70px;
+}
+.leftmenu{
+	width:40% ;
+	line-height :40px;
+	float : left ;
+}
+
+.text
+{
+	color:white ;
+	font-size:20px;
+	letter-spacing:10px ;
+	
+}
+
+.menubar ul{
+	display:inline-flex;
+	list-style : none;
+	color : white ;
+	overflow:hidden;
+	float:right ;
+
+
+	
+	
+}
+
+.menubar ul li{
+	width:100px ;
+	margin:2px ;
+	padding:5px ;
+	font-family: Impact, Charcoal, sans-serif;
+}
+
+.menubar ul li a{
+	text-decoration:none;
+	color:white;
+}
+
+a:hover {
+  background-color: #b2beb5;
+ 
+}
+.btnlogin{
+	margin:2px;
+    color: black;
+    background-color: white;
+    border:none;
+    padding:10px;
+    float: right;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btnRegister{
+	margin:2px;
+    color: black;
+    background-color: white;
+    border:none;
+    padding:10px;
+    float: right;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.getfooter
+{
+	height:80%;
+}
+#getTable
+{
+	
+	text-align: left;
+	background-color:white;
+}

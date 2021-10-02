@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Reservation </title>
+		<script src="script/script.js"> </script>
+		<link rel="stylesheet" href="style/formstyles.css"/>
+		<link rel="stylesheet" href="style/reserve.css"/>
+	</head>
+	<body>
+		<div class="menubar">
+			<button type="submit"class="btnlogin" ><a href="#">Login</a></button>
+			<button type="submit"class="btnRegister"><a href="#">Register</a></button>
+
+			<div class="leftmenu">
+				<h1 class="text" >NIWAHANA APARTMENTS</h1>
+			</div>
+			<ul>
+				<li style="font-size:20px"> <a href="Home.html"> Home </a> </li>
+				<li style="font-size:20px"> <a href="viewapartments.html"> Apartments </a> </li>
+				<li style="font-size:20px"> <a href="Aboutus.html">About Us </a> </li>
+				<li style="font-size:20px"> <a href="Services.html">Services </a> </li>
+				<li style="font-size:20px">  <a href="contact.html">Contact Us </a> </li>
+			</ul>
+		</div>
+		<hr>
+	
+		<h1 align="center" class="capitalize" color="white"> Reserve an apartment </h1>
+
+		<center>
+		<form align="left" action="form2.php" method="POST">
+			<h2 align="center"> Reserve your dream apartment. </h2>
+
+			<h3>GENERAL CANCELLATION POLICY:<br></h3>
+			<p>The reservation can be cancelled totally or partially but the following penalties must be paid:
+				100% if cancellation is made after one month of reservation period.<br>
+				80% if cancellation is made in between 3 weeks after reservation period.<br>
+				30% if cancellation is made in between a week after reservation period.<br>
+				0% if cancellation is made in between 3 days after reservation period.</p>
+			<h3>TERMS OF PAYMENT:<br></h3>
+			<p>The reservation cancellation fee can be done by credit/debit cards.<br>
+			The remaining fee is due at the check-in. </p>
+				
+			<fieldset>
+				
+				<legend> RESRVATION FORM </legend>
+				
+			Choose The Apartment Type:<br>
+			<select name="apartmnt" id="apartmnt">
+				<option>----Type----</option>
+				<option value="a" >Eco Stay</option> 
+				<option value="b" >The Green </option>
+				<option value="c" >Ideal Home</option>
+				<option value="d" >Alpha City</option>
+				<option value="e" >City View</option>
+				<option value="f" >Sky View</option>
+			</select> <br><br>
+			Apartment Number You Would Like To Reserve : <br>
+			<input type="number" id="number" name="Number" style="width:10%;" placeholder="123" required > <br><br>
+			Please Let Us Know What You Are Interested In : <br>
+			<textarea id="inte1" name="inte1" cols="60" rows="10" > </textarea> <br><br>
+			Customer's Full Name : <br>
+			<input type="text" id="fname" name="fname" style="width:60%;" required> <br><br>
+			Choose The Reservation Date: <br>
+			<input type="date" id="date" name="date" required> <br><br>
+			NIC: <br>
+			<input type="text" id="nic" name="nic" style="20%" required>  <br><br>
+			Mobile Number : <br>
+			<input type="phone" id="phone" name="phone" style="width:15%;" pattern="[0-9]{10}" placeholder="0768817653" required > <br><br>
+			Email Address : <br>
+			<input type="email" id="email" name="email" style="width:40%;" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9]+\.[a-z]{2,3}" placeholder="onlinepoorna@gmail.com" required> <br><br>
+			Are You Planning To Visit The Apartment? : <br>
+			<input type="radio" id="visit" name="visit" value="y"> Yes
+			<input type="radio" id="visit" name="visit" value="n"> No
+			<input type="radio" id="visit" name="visit" value="p"> Preferred Not To Tell <br><br>
+			What Is The Best Way To Contact You?:<br>
+			<input type="radio" id="s" name="s" value="s1"> Call via phone <br>
+			<input type="radio" id="s" name="s" value="s2"> Email	<br>
+			<input type="radio" id="s" name="s" value="s3"> Text via phone
+				<br><br>
+			Anything Else We Should Know : <br>
+			<textarea id="inte" name="inte" cols="60" rows="10" > </textarea>
+			
+			</fieldset>
+			
+			Accept Reservation Policy
+			<input type="checkbox" id="ch" name="ch" required onclick="enableButton()"> <br><br>	
+			
+			<input type="submit" id="b1" name="b1" value="Submit" disabled>
+			
+		</form>
+		</center>
+		
+		<hr>
+		
+		<div>
+			<footer class="footer">
+				<div class="cont">
+					<div class="col">
+						<div class="card">
+							<h2>About Us</h2>
+								<p>We're excited to offer some quality apartments.
+									The Niwahana Apartments(Pvt) Ltd is one of the leading companies in the real estate sector in Sri Lanka.
+									We have over 20 years experience in real estate.</p>
+						</div>
+					</div>
+		 
+					<div class="col">
+						<div class="card">
+							<h2>Find Us </h2>
+								<p> Facebook: Niwahana Apartments<br>
+									Instagram : niwahanalive<br>
+									Email: inquire@Napartments.com <br>
+								</p>
+						</div>
+					</div>
+		 
+					<div class="col">
+						<div class="card">
+							<h2>Location</h2>
+								<p> No 14/2,<br>Athurugiriya road,<br>Malabe.<br></p>
+						</div>
+					</div>
+		 
+					<div class="col">
+						<div class="card">
+							<h2>Hotline</h2>
+								<p>+94 355 584 894<br>+94 445 236 777<br>+94 558 326 256<br></p>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>

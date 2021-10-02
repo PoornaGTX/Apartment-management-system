@@ -1,0 +1,108 @@
+@charset "utf-8";
+	 
+	.heads
+	{
+		text-align:center;
+		font-family:sans-serif;
+		text-decoration: underline;
+	}
+	hr
+	{
+		border:1px solid black;
+	}
+	h1.capitalize{
+		text-transform: capitalize;
+	}
+	h3.uppercase{
+		text-transform: uppercase;
+	}
+	.menubar{
+		background:black ;
+		text-align:center ;
+		overflow: hidden;
+		height:70px;
+	}
+	.leftmenu{
+		width:40% ;
+		line-height :40px;
+		float : left ;
+	}
+
+	.text{
+		color:white ;
+		font-size:20px;
+		letter-spacing:10px ;
+	}
+
+	.menubar ul{
+		display:inline-flex;
+		list-style : none;
+		color : white ;
+		overflow:hidden;
+		float:right ;	
+	}
+
+	.menubar ul li{
+		width:100px ;
+		margin:2px ;
+		padding:5px ;
+		font-family: Impact, Charcoal, sans-serif;
+	}
+
+	.menubar ul li a{
+		text-decoration:none;
+		color:white;
+	}
+
+	a:hover {
+		background-color: #b2beb5;
+ 
+	}
+	.btnlogin{
+		margin:2px;
+		color: black;
+		background-color: white;
+		border:none;
+		padding:10px;
+		float: right;
+		border-radius: 10px;
+		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	}
+	.btnRegister{
+		margin:2px;
+		color: black;
+		background-color: white;
+		border:none;
+		padding:10px;
+		float: right;
+		border-radius: 10px;
+		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	}
+	body
+	{
+		background-image:url("../img/app.jpg");
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+	.cont{
+		max-width:1170px ;
+		width:100%;
+		margin:0 auto ;
+		display :flex ;
+	}
+	.col{
+		margin: 0 15px 25px;
+		0 1px 2px rgba(0, 0, 0, 0.24);
+		flex-basis:33%;
+	}
+	.card{
+		padding:15;
+		color:white;	
+	}
+	.cardtxt{
+		text-align:center;
+	}
+	.footer{
+		background-color:black;
+	}
